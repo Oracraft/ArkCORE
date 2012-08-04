@@ -18,7 +18,7 @@
 #    GAME MASTER SETTINGS
 #    VISIBILITY AND DISTANCES
 #    SERVER RATES
-#    AUTO BROADCAST
+#    AUTO BROADCASTNext changes chance
 #    BATTLEGROUND CONFIG
 #    BATTLEFIELD CONFIG   
 #    ARENA CONFIG
@@ -2170,6 +2170,21 @@ Rate.Mining.Amount = 1
 #        Default:     Chance to to mine a deposit again.
 
 Rate.Mining.Next = 1
+
+Rate.Archaeology.Amount
+#    Rate.Archaeology.Next
+#        Archaeology Rates (Archaeology.Amount changes minimum/maximum usetimes of a deposit,
+#        Archaeology.Next changes chance to have next use of a deposit)
+
+Rate.Archaeology.Amount           = 1
+
+#    SkillChance.ArchaeologySteps
+
+Rate.Archaeology.Next             = 1
+
+#        For skinning, Mining and Archaeology chance decrease with skill level.
+
+SkillChance.ArchaeologySteps   = 0
 
 #
 #    Rate.Talent
