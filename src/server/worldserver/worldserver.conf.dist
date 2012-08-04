@@ -18,7 +18,7 @@
 #    GAME MASTER SETTINGS
 #    VISIBILITY AND DISTANCES
 #    SERVER RATES
-#    AUTO BROADCASTNext changes chance
+#    AUTO BROADCAST
 #    BATTLEGROUND CONFIG
 #    BATTLEFIELD CONFIG   
 #    ARENA CONFIG
@@ -1488,6 +1488,7 @@ AllowTwoSide.Interaction.Chat = 0
 AllowTwoSide.Interaction.Channel = 0
 
 #
+
 #    AllowTwoSide.Interaction.Group
 #        Description: Allow group joining between factions.
 #        Default:     0 - (Disabled)
